@@ -94,8 +94,9 @@ ro.disableWifiApFirmwareReload=true
 wifi.interface=wlan0
 
 # Camera
-media.stagefright.legacyencoder=true
+media.stagefright.legacyencoder=true 
 media.stagefright.less-secure=true
+persist.camera.HAL3.enabled=1
 
 # IMS
 persist.radio.jbims=1
